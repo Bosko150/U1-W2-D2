@@ -100,8 +100,12 @@ if (a > b && a > c && b > c) {
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
 */
 
-let type = 10;
-console.log(typeof type);
+let type = 5;
+if (typeof type === "number") {
+  console.log("la variabile è un numero");
+} else {
+  console.log("la variabile non è un numero");
+}
 
 /* ESERCIZIO 9
   Crea un algoritmo per controllare se un numero fornito sia pari o dispari (suggerimento: cerca l'operatore modulo su un motore di ricerca)
