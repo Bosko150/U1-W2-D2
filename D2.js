@@ -101,7 +101,7 @@ if (a > b && a > c && b > c) {
 */
 
 let type = 5;
-if (typeof type === "number") {
+if (typeof type == "number") {
   console.log("la variabile è un numero");
 } else {
   console.log("la variabile non è un numero");
@@ -161,7 +161,7 @@ console.log(me);
   Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere l'ultimo elemento della proprietà "skills".
 */
 
-delete me.skills[me.skills.length - 1];
+me.skills.pop;
 console.log(me);
 
 /* ESERCIZIO 14
